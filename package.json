@@ -1,0 +1,52 @@
+{
+  "name": "angular_ocloazyload_webpack",
+  "version": "1.0.0",
+  "description": "angularjs lazyload and bulid by webpack",
+  "main": "app.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev webpack-dev-server --host 0.0.0.0 --inline --progress --colors",
+    "deploy": "cross-env NODE_ENV=production webpack --progress --colors --bail --profile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lzm8607/angularjs_oclazyload_webpack.git"
+  },
+  "keywords": [
+    "angualrjs1.x",
+    "oclazyload",
+    "webpack"
+  ],
+  "author": "jimmyLoOo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lzm8607/angularjs_oclazyload_webpack/issues"
+  },
+  "homepage": "https://github.com/lzm8607/angularjs_oclazyload_webpack#readme",
+  "devDependencies": {
+    "angular": "^1.6.6",
+    "angular-ui-router": "^0.4.2",
+    "autoprefixer": "^7.1.2",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.5",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "node-sass": "^4.5.3",
+    "oclazyload": "^1.1.0",
+    "open-browser-webpack-plugin": "0.0.5",
+    "postcss-loader": "^2.0.6",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.7.1",
+    "xml-loader": "^1.2.1"
+  }
+}

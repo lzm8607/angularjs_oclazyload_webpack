@@ -1,0 +1,42 @@
+$fontColor:#FFF;
+$footerColor:#474747;
+$headerColor:#7cbfbc;
+$headerHoverColor: #51a4bf;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+body {
+  background: #f6f6f6;
+}
+header{
+  height: 5%;
+  background: $headerColor;
+  &>a{
+    color: $fontColor;
+    width: 100px;
+    text-align: center;
+    height: 100%;
+    line-height: 50px;
+    display: inline-block;
+    &:hover{
+      background: $headerHoverColor;
+    }
+  }
+}
+ui-view {
+  display: block;
+  height: 90%;
+  &>div {
+    height: 100%;
+  }
+}
+footer{
+  background: $footerColor;
+  color: $fontColor;
+  height: 5%;
+}
